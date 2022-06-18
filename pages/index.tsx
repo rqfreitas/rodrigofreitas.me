@@ -13,6 +13,7 @@ export const getStaticProps = async () => {
 
     // we don't want to publish the error version of this page, so
     // let next.js know explicitly that incremental SSG failed
+    // certificado google "google-site-verification=OPwozrpGTv5LZAH_8V9g-aFl9FXXpWeTz2czX5R61sE"
     throw err
   }
 }
